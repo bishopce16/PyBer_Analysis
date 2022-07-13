@@ -12,7 +12,9 @@ Libraries: Pandas 1.4.2, Matplotlib-inline 0.1.3, Matplotlib 3.5.2
 ---
 ## Results:
 
-There is a description of the differences in ride-sharing data among the different city types. 
+Using the merged dataset to create a summary DataFrame by city type, show that rural cities have fewer drivers and riders with higher average fares prices than urban cities. The total rides for rural cities is thirteen times less than in urban cities. The average fare per ride 1.4 times more in rural cities compared to urban cities. Urban cities total fares were two times higher than suburban cities and nine times higher than in rural cities. 
+
+![PyBer Summary DataFrame](analysis/pyber_summary_df.png)
 
 The Percentage of Total Rides by City Type: 
 
@@ -22,25 +24,30 @@ Urban cities made up more than 2/3 of the percentage of total rides in 2019. The
 
 The Percentage of Total Drivers by City Type: 
 
+Drivers in the urban cities are in the majority with just over 80% of total drivers in the 2019 data. With suburban cities making up only 16.5% and rural cities 2.6%. 
 
 ![The Percentage of Total Drivers by City Type pie chart](analysis/Fig7.png)
 
 The Percentage of Total Fares by City Type: 
-
+This pie chart shows that over 60% of total fares by city type, were in urban cities. Suburban cities counted for 30.5% of total fares and rural cities 6.8% in 2019.
 
 ![The Percentage of Total Fares by City Type pie chart](analysis/Fig5.png)
 
 Average Fare per Ride and Driver by City Type:
 
+The bubble chart “PyBer Ride-Sharing Data (2019)” shows the relationship between the total number of drivers and the average fare price. As the total number of rides per city increases, the average fare tends to decrease. This points to a negative relationship. The circle size correlates with the driver count per city. Rural cities have less drivers and rides per city than urban and suburban cities however rural city fare range from middle to high prices.
 
 ![Average Fare per Ride and Driver by City Type bubble chart](analysis/Fig1.png)
 
 Total Fare by City Type:
 
+The multiple-line chart “Total Fares by City Type” shows the total weekly fares for each city type from January to April 2019. The chart shows that total fares in urban cities is nine times higher than in rural cities and two times higher than suburban cities. 
 
 ![Total Fare by City Type line chart](analysis/Fig8.png)
 
 ---
 ## Summary:
+The PyBer summary DataFrame 
+
 
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.

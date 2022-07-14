@@ -1,7 +1,7 @@
 # PyBer_Analysis
 ## Overview of the analysis:
 
-The purpose of this project was to complete an exploratory analysis and create visualizations of the 2019 ride sharing data from PyBer. Using the provided CSV files  located in the resources folder ride_date.csv and city_data.csv,  to help the company increase access to ride sharing services and determine affordability for underserved area. The two datasets were merged using left join based on the “city” column to create one DataFrame named pyber_data_df. The city types being compared are urban, suburban, and rural. 
+The purpose of this project was to complete an exploratory analysis and create visualizations of the 2019 ride sharing data from PyBer. Using the provided CSV files located in the resources folder ride_date.csv and city_data.csv, to help the company increase access to ride sharing services and determine affordability for underserved areas. The two datasets were merged using left join based on the “city” column to create one DataFrame named pyber_data_df. The city types being compared are urban, suburban, and rural. 
 
 ---
 ## Resources:
